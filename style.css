@@ -3,8 +3,11 @@
     margin: 0;
     padding: 0;
 }
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
 body {
-    padding: 5% 10%;
+    padding: 0 5% 5% 5%;
 }
 header {
     height: 100px;
@@ -12,6 +15,23 @@ header {
 }
 header > img {
     height: 100%;
+    border-right: 1px solid lightgrey;
+    padding-right: 20px;
+}
+nav {
+    margin-top: 2%;
+}
+nav > ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
 }
 #section1 {
     height: 500px;
