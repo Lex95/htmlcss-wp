@@ -34,9 +34,19 @@ a {
     text-transform: uppercase;
 }
 #section1 {
-    height: 500px;
-    background-color: khaki;
+    height: 600px;
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 20px;
     margin-bottom: 5%;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    border-radius: 20px;
+    color: white;
+    padding: 30% 45% 5% 5%;
 }
 #section2 {
     background-color: dodgerblue;
